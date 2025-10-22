@@ -91,7 +91,7 @@ body {
   position: absolute;
   width: 307px;
   height: 156px;
-  background-image: url(./img/button.svg);
+  background-image: url(../img/button.svg);
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
