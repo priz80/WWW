@@ -1,0 +1,36 @@
+.aside {
+  margin-left: 172px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aside-line {
+  position: absolute;
+  width: 2.5px;
+  background: linear-gradient(
+    180deg,
+    rgba(46, 236, 197, 0) 0%,
+    rgba(46, 236, 197, 0.5) 43.69%,
+    rgba(46, 236, 197, 0.07) 92.19%,
+    rgba(255, 177, 177, 0) 100%
+  );
+  /* margin-left: 181px; */
+}
+
+.aside-line_header {
+  height: 1062px;
+}
+.aside-line_about {
+  height: 1062px;
+}
+
+.aside-line_portfolio {
+  height: 778px;
+}
+
+.aside-line_tarif {
+  height: 984px;
+}
+
+.aside-point {
+}
