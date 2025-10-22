@@ -1,0 +1,49 @@
+.portfolio-container {
+  margin-top: 290px;
+}
+
+.portfolio-block {
+  display: flex;
+  justify-content: space-between;
+}
+.portfolio-text {
+  margin: 0;
+}
+
+.slider-portfolio {
+  margin: 0;
+  width: 567px;
+  height: 363px;
+  background: #1b0244;
+}
+
+.portfolio-description {
+  width: 526px;
+  margin-top: 18px;
+  margin-bottom: 41px;
+  color: rgba(255, 255, 255, 0.65);
+  font-family: Ruberoid;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 153.8%; /* 26.146px */
+}
+
+.button-portfolio {
+  width: 269px;
+  height: 51px;
+  flex-shrink: 0;
+  border-radius: 49px;
+  border: 1.5px solid #2eecc5;
+  background: rgba(46, 236, 197, 0.1);
+  box-shadow: 0 0 37px 0 rgba(46, 236, 197, 0.2);
+}
+
+.button-portfolio p {
+  color: #fff;
+  font-family: Ruberoid;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
