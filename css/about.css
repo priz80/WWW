@@ -1,0 +1,91 @@
+.about-text {
+  width: 672px;
+  margin: 0;
+}
+
+.about-block {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 32px; */
+  gap: 35px;
+  margin-top: 32px;
+}
+
+.about-container {
+  margin-top: 84px;
+}
+
+.h3-about {
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: Ruberoid;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 13px;
+}
+
+.button-about_block {
+  width: 200px;
+  height: 57px;
+  margin: 0;
+  margin-top: 44px;
+}
+
+.button-about {
+  width: 200px;
+  height: 57px;
+  border-radius: 4px;
+  border: 1.5px solid #2eecc5;
+  background: #161617;
+  box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.2);
+  /* margin-top: 44px; */
+}
+
+.button-about_shadow {
+  width: 200px;
+  height: 57px;
+  border-radius: 4px;
+  border: 1.5px solid rgba(46, 236, 197, 0.4);
+  margin-top: -45px;
+  margin-left: 8px;
+}
+
+.button-about p {
+  color: #fff;
+  font-family: Ruberoid;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about-card {
+  width: 400px;
+  height: 400px;
+  border-radius: 6px;
+  border: 1px solid #fff;
+  background: linear-gradient(
+    140deg,
+    #303134 10.06%,
+    #282828 53.72%,
+    #282828 88%
+  );
+  box-shadow: 0 0 80px 0 rgba(44, 44, 45, 0.35);
+}
+
+.about-card_prise {
+  margin: 0;
+  background: linear-gradient(
+    140deg,
+    #527791 10.06%,
+    #325597 53.72%,
+    #193895 88%
+  );
+  box-shadow: 0 0 150px 0 rgba(59, 95, 150, 0.35);
+}
