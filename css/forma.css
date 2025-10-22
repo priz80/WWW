@@ -1,0 +1,90 @@
+.forma {
+  margin-top: 216px;
+  width: 100%;
+  height: 458px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(
+    92deg,
+    #313134 -11.81%,
+    #222224 23.9%,
+    #12473c 60.63%,
+    #292929 110.44%
+  );
+}
+
+.forma-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forma-block {
+    margin: 0;
+}
+
+.forma-text {
+  margin-top: 41px;
+}
+
+.forma_ {
+  margin: 0;
+  margin-top: 25px;
+  width: 923px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.discrition {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Ruberoid;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 153.8%; /* 26.146px */
+}
+
+.field {
+  width: 437px;
+  height: 52px;
+  border-radius: 41px;
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 38px 0 rgba(255, 255, 255, 0.05);
+}
+
+.button-forma_container {
+  width: 437px;
+  height: 52px;
+  margin-top: 27px;
+}
+
+.button-forma {
+  width: 184px;
+  height: 52px;
+  border-radius: 41px;
+  border: 1.5px solid #2eecc5;
+  background: rgba(46, 236, 197, 0.1);
+  box-shadow: 0 0 38px 0 rgba(255, 255, 255, 0.05);
+}
+
+.button-forma p {
+  color: #fff;
+  font-family: Ruberoid;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 153.8%; /* 26.146px */
+}
+
+.phone-block {
+    margin: 0;
+    margin-top: -30px;
+  width: 270px;
+  height: 488px;
+  background-image: url(../img/iphone.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
