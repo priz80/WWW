@@ -6,10 +6,22 @@
     <title>WebStudio</title>
     <link rel="stylesheet" href="/font/stylesheet.css" />
     <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/font.css" />
+    <link rel="stylesheet" href="/css/aside.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/css/portfolio.css" />
+    <link rel="stylesheet" href="/css/tarif.css" />
+    <link rel="stylesheet" href="/css/forma.css" />
   </head>
   <body>
-    <header>
-      <div class="header">
+    <header class="header">
+      <div class="header-container">
+        <div class="aside">
+          <div class="aside-line aside-line_header">
+            <div class="aside-point"></div>
+          </div>
+        </div>
         <div class="container">
           <div class="lamp"></div>
           <div class="menu">
@@ -17,11 +29,11 @@
               <div class="logo-studio">studio</div>
               <div class="logo-web">web</div>
             </div>
-              <menu class="main-menu">
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Почему именно мы?</a></li>
-                <li><a href="#">Контакты</a></li>
-              </menu>
+            <menu class="main-menu">
+              <li><a href="#">Главная</a></li>
+              <li><a href="#">Почему именно мы?</a></li>
+              <li><a href="#">Контакты</a></li>
+            </menu>
             <div class="button">
               <div class="button-image">
                 <div class="text">
@@ -34,21 +46,142 @@
             <div class="header-text">
               <h1>Разработка сайтов</h1>
               <h2>для твоего бизнеса</h2>
-              <p>Мы - студия web-разработки, работаем уже более 3-х лет, готовы разработать для вас сайт в кротчайшие сроки.</p>
+              <p class="header-description">
+                Мы - студия web-разработки, работаем уже более 3-х лет, готовы
+                разработать для вас сайт в кротчайшие сроки.
+              </p>
+              <div class="button-block">
+                <button class="details">
+                  <div class="button-text">
+                    <p class="button-description">Подробнее</p>
+                    <img src="./img/arrow.svg" alt="" />
+                  </div>
+                </button>
+                <p class="question">Остались вопросы?</p>
+              </div>
             </div>
             <div class="man">
               <div class="man-image">
-                <img src="./img/man.svg" alt="man">
-                
+                <img src="./img/man.svg" alt="man" />
               </div>
               <div class="circle-image">
-                  <img src="./img/circle.svg" alt="target">
-                </div>
+                <img src="./img/circle.svg" alt="target" />
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div class="line"></div>
     </header>
+    <main>
+      <section class="about">
+        <div class="aside">
+          <div class="aside-line aside-line_about">
+            <div class="aside-point"></div>
+          </div>
+        </div>
+        <div class="container about-container">
+          <div class="about-block">
+            <div class="about-text">
+              <h3 class="h3-about">Причины сотрудничать с нами</h3>
+              <p class="about-description">
+                Пока конкуренты говорят о том, что они лучшие - мы это
+                доказываем делом.
+              </p>
+              <p class="about-description">
+                Вы можете ознакомиться с информацией о нас и посмотреть наше
+                портфолио
+              </p>
+              <div class="button-about_block">
+                <button class="button-about"><p>Портфолио</p></button>
+                <div class="button-about_shadow"></div>
+              </div>
+            </div>
+            <div class="about-card about-card_prise"></div>
+          </div>
+          <div class="about-block">
+            <div class="about-card"></div>
+            <div class="about-card"></div>
+            <div class="about-card"></div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="aside">
+          <div class="aside-line aside-line_portfolio">
+            <div class="aside-point"></div>
+          </div>
+        </div>
+        <div class="container portfolio-container">
+          <div class="portfolio-block">
+            <div class="portfolio-text">
+              <h3>Наше портфолио</h3>
+              <p class="portfolio-description">
+                В данном портфолио вы сможете увидеть кейсы наших работ на 2022
+                - 2023 год
+              </p>
+              <button class="button-portfolio">
+                <p>Компьютерные версии</p>
+              </button>
+            </div>
+            <div class="slider-portfolio"></div>
+          </div>
+        </div>
+      </section>
+      <section class="tarif">
+        <div class="aside">
+          <div class="aside-line aside-line_tarif">
+            <div class="aside-point"></div>
+          </div>
+        </div>
+        <div class="container tarif-container">
+          <div class="tarif-block">
+            <div class="tarif-text">
+              <h3>Тарифы</h3>
+            </div>
+            <div class="slider-tarif">
+              <div class="tarif-card"></div>
+              <div class="tarif-card_main"></div>
+              <div class="tarif-card"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="forma">
+        <div class="container forma-container">
+          <div class="forma-block">
+            <div class="forma-text">
+              <h4>Оставь заявку</h4>
+            </div>
+            <form action="" class="forma_">
+              <div class="discrition">
+                <p>Ваше ФИО</p>
+                <input class="field" type="text" placeholder="Имя" />
+              </div>
+              <div class="discrition">
+                <p>Ваш номер телефона</p>
+                <input class="field" type="text" placeholder="Телефон" />
+              </div>
+              <div class="discrition">
+                <p>Бюджет на сайт</p>
+                <input class="field" type="number" placeholder="Бюджет" />
+              </div>
+              <div class="discrition">
+                <p>Ваш E-MAIL адрес</p>
+                <input class="field" type="email" placeholder="E-mail" />
+              </div>
+              <div class="discrition">
+                <p>Ваш комментарий (по желанию)</p>
+                <input class="field" type="text" placeholder="Комментарий" />
+              </div>
+              <div class="button-forma_container">
+                <button type="submit" class="button-forma"><p>Отправить</p></button>
+              </div>
+            </form>
+          </div>
+          <div class="phone-block"></div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
