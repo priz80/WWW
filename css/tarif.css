@@ -1,0 +1,45 @@
+.tarif-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.tarif-text {
+  margin-top: 354px;
+  margin-bottom: 41px;
+  display: flex;
+  justify-content: center;
+}
+
+.slider-tarif {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.tarif-card_main {
+  width: 370px;
+  height: 570px;
+  border-radius: 36px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(
+    169deg,
+    #313134 9.31%,
+    #292929 61.88%,
+    #282828 111.76%
+  );
+}
+
+.tarif-card {
+  width: 295px;
+  height: 411px;
+  border-radius: 36px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(
+    203deg,
+    rgba(49, 49, 52, 0.7) 9.28%,
+    rgba(44, 44, 45, 0.7) 43.91%,
+    rgba(41, 41, 41, 0.7) 87.77%
+  );
+/*   stroke-width: 1px; */
+  /* stroke: rgba(255, 255, 255, 0.1); */
+}
