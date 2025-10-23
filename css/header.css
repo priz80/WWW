@@ -219,3 +219,30 @@
   margin-left: 66px;
   margin-top: 8px;
 }
+
+@media (max-width: 1905px) {
+.man-image {
+  margin-top: -115px;
+  margin-left: -92px;
+  z-index: 1;
+}
+
+.circle-image {
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 8px;
+}
+}
+@media (max-width: 1730px) {
+.man-image {
+  margin-top: -115px;
+  margin-left: -192px;
+  z-index: 1;
+}
+
+.circle-image {
+  position: absolute;
+  margin-left: -120px;
+  margin-top: 8px;
+}
+}
