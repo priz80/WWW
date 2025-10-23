@@ -1,6 +1,7 @@
 
 .header {
-  /* margin-bottom: 104px; */
+  
+  overflow: hidden;
 }
 
 .header-container {
@@ -8,7 +9,6 @@
   background-image: url(../img/room.svg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  /* overflow: hidden; */
 }
 
 .line {
