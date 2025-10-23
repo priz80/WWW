@@ -1,11 +1,15 @@
+.tarif-container {
+  margin-top: 60px;
+  margin-bottom: 216px;
+}
+
 .tarif-block {
   display: flex;
   flex-direction: column;
 }
 
 .tarif-text {
-  margin-top: 354px;
-  margin-bottom: 41px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -40,6 +44,6 @@
     rgba(44, 44, 45, 0.7) 43.91%,
     rgba(41, 41, 41, 0.7) 87.77%
   );
-/*   stroke-width: 1px; */
-  /* stroke: rgba(255, 255, 255, 0.1); */
+  stroke-width: 1px;
+  stroke: rgba(255, 255, 255, 0.1);
 }
