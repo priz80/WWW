@@ -42,6 +42,7 @@
   height: 57px;
   margin: 0;
   margin-top: 44px;
+  flex-shrink: 0;
 }
 
 .button-about {
@@ -51,7 +52,7 @@
   border: 1.5px solid #2eecc5;
   background: #161617;
   box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.2);
-  /* margin-top: 44px; */
+  cursor: pointer;
 }
 
 .button-about_shadow {
