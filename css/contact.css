@@ -5,14 +5,14 @@
   margin-top: 42px;
 }
 .contact-block {
-    margin: 0;
-    display: flex;
-    align-items: center;
+  margin: 0;
+  display: flex;
+  align-items: center;
   flex-direction: column;
 }
 .contact-text {
-    margin: 0;
-    display: flex;
+  margin: 0;
+  display: flex;
 }
 
 .star {
@@ -34,16 +34,78 @@
 }
 
 .star-left_up {
-margin-top: 96px;
+  margin-top: 96px;
 }
 .star-right_up {
-margin-left: 480px;
-
+  margin-left: 480px;
 }
 .star-left {
-    margin-top: 11px;
-    margin-right: 474px;
+  margin-top: 11px;
+  margin-right: 474px;
 }
 .star-right {
-margin-top: 16px;
+  margin-top: 16px;
+}
+
+/* section ball */
+
+.contact-ball_container {
+  margin-top: 60px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  /* gap: 36px; */
+  height: 165px;
+  /* width: 100%; */
+}
+
+.contact-ball {
+  width: 110px;
+  height: 110px;
+  flex-shrink: 0;
+  margin: 0;
+  margin: 36px;
+}
+.contact-ball:hover {
+  width: 165px;
+  height: 165px;
+  flex-shrink: 0;
+}
+
+.telegram {
+  background-image: url(../img/group.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.telegram:hover {
+  background-image: url(../img/tg.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.max {
+  background-image: url(../img/group.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.git {
+  background-image: url(../img/group.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vk {
+  background-image: url(../img/vk.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mail {
+  background-image: url(../img/mail.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.draggable:hover {
+  cursor: url(../img/Pointer.svg), grabbing;
 }
