@@ -1,0 +1,49 @@
+.contact {
+  margin: 0;
+}
+.contact-container {
+  margin-top: 42px;
+}
+.contact-block {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  flex-direction: column;
+}
+.contact-text {
+    margin: 0;
+    display: flex;
+}
+
+.star {
+  margin: 0;
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/star.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.star-small {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/starsmall.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.star-left_up {
+margin-top: 96px;
+}
+.star-right_up {
+margin-left: 480px;
+
+}
+.star-left {
+    margin-top: 11px;
+    margin-right: 474px;
+}
+.star-right {
+margin-top: 16px;
+}
