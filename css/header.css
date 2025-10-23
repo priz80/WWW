@@ -136,6 +136,7 @@
 
 .header-text {
   margin: 0;
+  min-width: 808px;
 }
 
 
@@ -203,17 +204,17 @@
 .man {
   margin: 0;
   padding: 0;
+  height: 729px;
+  display: flex;
 }
 .man-image {
-  position: absolute;
   margin-top: -115px;
-  margin-left: -5px;
+  margin-left: -7px;
   z-index: 1;
-  overflow: hidden;
 }
 
 .circle-image {
   position: absolute;
-  margin-left: 68px;
+  margin-left: 66px;
   margin-top: 8px;
 }
