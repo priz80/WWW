@@ -52,12 +52,9 @@
 .contact-ball_container {
   margin-top: 60px;
   display: flex;
-
   align-items: center;
   justify-content: center;
-  /* gap: 36px; */
   height: 165px;
-  /* width: 100%; */
 }
 
 .contact-ball {
