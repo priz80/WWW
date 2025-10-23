@@ -1,5 +1,4 @@
 .forma {
-  /* margin-top: 216px; */
   width: 100%;
   height: 458px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -22,7 +21,7 @@
 }
 
 .forma-text {
-  margin-top: 41px;
+  margin-top: 40px;
 }
 
 .forma_ {
@@ -80,9 +79,9 @@
     margin: 0;
     margin-top: -30px;
   width: 270px;
-  height: 488px;
+  height: 529px;
   background-image: url(../img/iphone.svg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
