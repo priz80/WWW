@@ -98,14 +98,66 @@
   box-shadow: 0 0 150px 0 rgba(59, 95, 150, 0.35);
 }
 
+.about-card_text {
+  margin-top: 38px;
+  margin-left: 42px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-card_title {
+  font-size: 26px;
+  line-height: 123%;
+  margin: 0;
+  margin-bottom: 20px;
+  width: 258px;
+}
+.about-card_subtitle {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 123%;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  width: 297px;
+}
+.about-card_image {
+  margin-right: 0;
+  margin-top: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.about-image_prise {
+  width: 211px;
+  height: 211px;
+  background-image: url(../img/cardimage/money.svg);
+  margin-top: 0;
+}
+.about-image_support {
+  width: 183px;
+  height: 189px;
+  background-image: url(../img/cardimage/support.svg);
+}
+.about-image_employ {
+  width: 156px;
+  height: 189px;
+  background-image: url(../img/cardimage/employ.svg);
+}
+.about-image_time {
+  width: 200px;
+  height: 189px;
+  background-image: url(../img/cardimage/time.svg);
+}
+
+
 @media (max-width: 1905px) {
   .about {
-  background-image: none;
-}
+    background-image: none;
+  }
 }
 
 @media (min-width: 2000px) {
   .about {
-  background-image: none;
-}
+    background-image: none;
+  }
 }
