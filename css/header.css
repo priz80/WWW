@@ -1,6 +1,4 @@
-
 .header {
-  
 }
 
 .header-container {
@@ -20,7 +18,6 @@
     rgba(42, 188, 158, 0) 100%
   );
 }
-
 
 .lamp {
   width: 127px;
@@ -45,10 +42,10 @@
 }
 .logo-studio {
   transform: rotate(-0.192deg);
-  color: #fff;
-  font-family: Ruberoid;
+  /* color: #fff; */
+  /* font-family: Ruberoid; */
   font-size: 17px;
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: bold;
   line-height: 140.6%; /* 23.902px */
   letter-spacing: 5.27px;
@@ -56,10 +53,10 @@
 }
 .logo-web {
   transform: rotate(-0.192deg);
-  color: #fff;
-  font-family: Ruberoid;
+  /* color: #fff; */
+  /* font-family: Ruberoid; */
   font-size: 40px;
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: bold;
   line-height: 140.6%; /* 56.24px */
   letter-spacing: -4.6px;
@@ -97,11 +94,11 @@
 }
 
 .text p {
-  color: #fff;
-  font-family: Ruberoid;
+  /* color: #fff; */
+  /* font-family: Ruberoid; */
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
+  /* font-style: normal; */
+  /* font-weight: 400; */
   line-height: normal;
 }
 
@@ -116,11 +113,11 @@
 }
 
 .main-menu a {
-  color: #fff;
-  font-family: Ruberoid;
+  /* color: #fff; */
+  /* font-family: Ruberoid; */
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
+  /* font-style: normal; */
+  /* font-weight: 400; */
   line-height: normal;
 }
 
@@ -137,14 +134,17 @@
   margin: 0;
   min-width: 808px;
 }
-
+.header-text h2 {
+  margin-top: -5px;
+  margin-bottom: 31px;
+}
 
 .header-description {
   color: rgba(255, 255, 255, 0.65);
-  font-family: Ruberoid;
+  /* font-family: Ruberoid; */
   font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
+  /* font-style: normal; */
+  /* font-weight: 400; */
   line-height: normal;
   max-width: 672px;
   margin: 0;
@@ -178,11 +178,11 @@
 
 .button-description {
   margin: 0;
-  color: #fff;
-  font-family: Ruberoid;
+  /* color: #fff; */
+  /* font-family: Ruberoid; */
   font-size: 19px;
-  font-style: normal;
-  font-weight: 400;
+  /* font-style: normal; */
+  /* font-weight: 400; */
   line-height: normal;
 }
 
@@ -194,10 +194,10 @@
 
 .question {
   color: rgba(255, 255, 255, 0.4);
-  font-family: Ruberoid;
+  /* font-family: Ruberoid; */
   font-size: 19px;
-  font-style: normal;
-  font-weight: 400;
+  /* font-style: normal; */
+  /* font-weight: 400; */
   line-height: normal;
 }
 
@@ -220,28 +220,28 @@
 }
 
 @media (max-width: 1905px) {
-.man-image {
-  margin-top: -115px;
-  margin-left: -92px;
-  z-index: 1;
-}
+  .man-image {
+    margin-top: -115px;
+    margin-left: -92px;
+    z-index: 1;
+  }
 
-.circle-image {
-  position: absolute;
-  margin-left: -20px;
-  margin-top: 8px;
-}
+  .circle-image {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 8px;
+  }
 }
 @media (max-width: 1730px) {
-.man-image {
-  margin-top: -115px;
-  margin-left: -192px;
-  z-index: 1;
-}
+  .man-image {
+    margin-top: -115px;
+    margin-left: -192px;
+    z-index: 1;
+  }
 
-.circle-image {
-  position: absolute;
-  margin-left: -120px;
-  margin-top: 8px;
-}
+  .circle-image {
+    position: absolute;
+    margin-left: -120px;
+    margin-top: 8px;
+  }
 }
