@@ -1,63 +1,40 @@
-h1 {
-  font-family: Ruberoid;
-  font-size: 65px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: normal;
+h1,
+h2,
+h3,
+h4 {
   background: linear-gradient(91deg, #b5feef 10.31%, #2eecc5 165.09%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  font-size: 65px;
+  line-height: normal;
   text-transform: uppercase;
 }
 
 h2 {
-  font-family: Ruberoid;
   font-size: 45px;
-  font-style: normal;
-  font-weight: bold;
   line-height: normal;
-  background: linear-gradient(91deg, #b5feef 10.31%, #2eecc5 165.09%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   text-transform: uppercase;
-  margin-top: -5px;
-  margin-bottom: 31px;
 }
 
 h3 {
   text-shadow: 0 0 36px rgba(165, 252, 235, 0.2);
-  font-family: Ruberoid;
   font-size: 55px;
-  font-style: normal;
-  font-weight: bold;
   line-height: 110.6%; /* 60.83px */
-  background: linear-gradient(91deg, #b5feef 10.31%, #2eecc5 165.09%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 h4 {
   text-shadow: 0 0 36px rgba(165, 252, 235, 0.2);
-  font-family: Ruberoid;
   font-size: 50px;
-  font-style: normal;
-  font-weight: bold;
   line-height: 110.6%; /* 55.3px */
-  background: linear-gradient(91deg, #b5feef 10.31%, #2eecc5 165.09%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 h5 {
-  color: var(--Mono-White, #FFF);
-font-family: Ruberoid;
-font-size: 96px;
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-letter-spacing: 1.92px;
+  color: var(--Mono-White, #fff);
+  font-size: 96px;
+  line-height: normal;
+  letter-spacing: 1.92px;
 }
