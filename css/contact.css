@@ -50,7 +50,7 @@
 /* section ball */
 
 .contact-ball_container {
-  margin-top: 60px;
+  margin-top: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,11 +58,33 @@
 }
 
 .contact-ball {
-  width: 110px;
-  height: 110px;
+/*   width: 110px;
+  height: 110px; */
   flex-shrink: 0;
   /* margin: 0; */
-  margin: 36px;
+  /* margin: 36px; */
+}
+.contact-ball_s {
+  width: 110px;
+  height: 110px;
+  margin: 20px;
+/*   flex-shrink: 0; */
+  /* margin: 0; */
+/*   margin: 36px; */
+}
+.contact-ball_m {
+  width: 120px;
+  height: 120px;
+/*   flex-shrink: 0; */
+  /* margin: 0; */
+  margin: 18px;
+}
+.contact-ball_l {
+  width: 128px;
+  height: 128px;
+/*   flex-shrink: 0; */
+  /* margin: 0; */
+  margin: 58px;
 }
 .contact-ball:hover {
   width: 165px;
