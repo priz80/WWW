@@ -1,7 +1,7 @@
 .aside {
   margin-left: 172px;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
 .aside-line {
@@ -32,13 +32,91 @@
   height: 950px;
 }
 
-.aside-point {
+.aside-point_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
+.aside-point_border {
+  min-width: 26px;
+  height: 45px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.aside-point_border_dark {
+  background-image: url(../img/point/pointborder.svg);
+}
+.aside-point_border_light {
+  background-image: url(../img/point/pointborderlight.svg);
+}
+
+.aside-point {
+  width: 18px;
+  height: 37px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.aside-point_dark {
+  background-image: url(../img/point/point.svg);
+}
+.aside-point_light {
+  background-image: url(../img/point/pointlight.svg);
+}
+
+.aside-number {
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.aside-number_dark {
+  background: linear-gradient(149deg, #5D7C76 0%, #0A3028 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aside-number_light {
+  background: linear-gradient(149deg, #b5feef 0%, #2eecc5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aside-light {
+  font-weight: bold;
+  font-size: 25px;
+  background: linear-gradient(149deg, #b5feef 0%, #2eecc5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.aside-point_container_01 {
+  margin-top: 171px;
+  margin-bottom: 544px;
+}
+
+.aside-point_container_02 {
+  margin-top: 104px;
+  margin-bottom: 602px;
+}
+.aside-point_container_03 {
+  margin-top: 140px;
+  margin-bottom: 340px;
+}
+.aside-point_container_04 {
+  margin-top: 52px;
+  margin-bottom: 483px;
+}
 
 @media (max-width: 1900px) {
- .aside {
-  visibility: hidden;
-  
- }
+  .aside {
+    visibility: hidden;
+  }
 }
