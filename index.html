@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <meta http-equiv="Content-Security-Policy" content="
+    base-uri 'self';
+    default-src 'self';
+    img-src data: http:;
+    object-src 'none';
+    script-src 'self' 'wasm-unsafe-eval';
+    style-src 'self';
+    connect-src 'none';
+    upgrade-insecure-requests" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta Cache-Control: max-age=31536000>
