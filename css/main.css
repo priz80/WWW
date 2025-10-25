@@ -9,14 +9,12 @@ body {
   background-color: #161617;
   font-family: 'Ruberoid', sans-serif;
   color: #fff;
-  margin: 0 auto;
-  padding: 0;
-  font-weight: bold;
   font-style: normal;
   font-weight: 400;
 }
 
-a, button {
+p, a, button {
+  font-family: 'Ruberoid', sans-serif;
   color: #fff;
 }
 
