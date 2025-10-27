@@ -306,11 +306,11 @@
 
                   <div class="star-small star-left"></div>
                   <div class="contact-ball_container">
-                    <div class="contact-ball git draggable"></div>
-                    <div class="contact-ball vk draggable"></div>
-                    <div class="contact-ball telegram draggable"></div>
-                    <div class="contact-ball max draggable"></div>
-                    <div class="contact-ball mail draggable"></div>
+                    <div class="git draggable"></div>
+                    <div class="vk draggable"></div>
+                    <div class="telegram draggable"></div>
+                    <div class="max draggable"></div>
+                    <div class="mail draggable"></div>
                   </div>
                 </div>
               </div>
@@ -378,8 +378,14 @@
                 </div>
                 <div class="header-content">
                   <div class="header-text">
-                    <h1>Разработка сайтов</h1>
-                    <h2>для твоего бизнеса</h2>
+                    <div class="h1-blur">
+                      <h1>Разработка сайтов</h1>
+                      <p>Разработка сайтов</p>
+                    </div>
+                    <div class="h2-blur">
+                      <h2>для твоего бизнеса</h2>
+                      <p>для твоего бизнеса</p>
+                    </div>
                     <p class="header-description">
                       Мы - студия web-разработки, работаем уже более 3-х лет,
                       готовы разработать для вас сайт в кротчайшие сроки.
@@ -594,7 +600,29 @@
                     </div>
                   </form>
                 </div>
-                <div class="phone-block"></div>
+                
+                  
+                  <div class="phone-block">
+                    <div class="notification">
+                    <div class="notification-image"><img src="./img/Ellipse 4.svg" alt="">
+                        <div class="notification-image_phone"><img src="./img/Group4.svg" alt=""></div>
+                      </div>
+                      <div class="notification-text">
+                        <p class="notification-text_title">Уведомление!</p>
+                        <p class="notification-text_subtitle">В скорейшем времени вам перезвонят</p>
+                    </div>
+                  </div>
+                  <div class="notification-end">
+                      <div class="notification-image_end"><img src="./img/Ellipse 5.svg" alt="">
+                        <div class="notification-image_ball"><img src="./img/Group5.svg" alt=""></div>
+                      </div>
+                      <div class="notification-text_end">
+                        <p class="notification-text_title_end">Работа закончена!</p>
+                        <p class="notification-text_subtitle_end">Мы закончили работу над вашим сайтом</p>
+                      </div>
+                  </div>
+                  </div>
+                
               </div>
             </section>
             <section class="contact" id="contact">
@@ -610,11 +638,40 @@
 
                   <div class="star-small star-left"></div>
                   <div class="contact-ball_container">
-                    <div class="contact-ball contact-ball_s git draggable"></div>
-                    <div class="contact-ball contact-ball_m vk draggable"></div>
-                    <div class="contact-ball contact-ball_l telegram draggable"></div>
-                    <div class="contact-ball contact-ball_m max draggable"></div>
-                    <div class="contact-ball contact-ball_s mail draggable"></div>
+                    <div class="contact-ball_block">
+                      <div class="contact-ball contact-ball_s draggable" id="contactball-s">
+                        <div class="ball ball-s" id="ball-s"></div>
+                      </div>
+                    </div>
+                    <div class="contact-ball_block">
+                      <div class="contact-ball contact-ball_m draggable" id="contactball-m">
+                        <div class="ball ball-m" id="ball-m">
+                          <div class="max" id="max"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="contact-ball_block">
+                      <div class="contact-ball contact-ball_l draggable" id="contactball-l">
+                        <div class="ball ball-l" id="ball-l">
+                          <div class="tg" id="tg"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="contact-ball_block">
+                      <div class="contact-ball contact-ball_m draggable" id="contactball-mm">
+                        <div class="ball ball-m" id="ball-mm">
+                          <div class="vk" id="vk"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="contact-ball_block">
+                      <div class="contact-ball contact-ball_s draggable" id="contactball-ss">
+                        <div class="ball ball-s" id="ball-ss">
+                          <div class="mail" id="mail"></div>
+                        </div>
+                      </div>
+                    </div>
+  
                   </div>
                 </div>
               </div>
@@ -640,6 +697,7 @@
       </div>
     </footer>
 
-    <script src="./js/sl.js"></script>
+    <script async src="./js/sl.js"></script>
+    <script async src="./js/contacty.js"></script>
   </body>
 </html>
