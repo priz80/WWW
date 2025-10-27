@@ -134,6 +134,33 @@
   margin: 0;
   min-width: 808px;
 }
+
+.h1-blur p {
+font-weight: bold;
+font-size: 65px;
+background: linear-gradient(149deg, #b5feef 0%, #2eecc5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-transform: uppercase;
+filter: blur(45px);
+margin-top: -89px;
+}
+
+.h2-blur p {
+  font-weight: bold;
+font-size: 45px;
+background: linear-gradient(149deg, #b5feef 0%, #2eecc5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-transform: uppercase;
+filter: blur(45px);
+margin-top: -93px;
+margin-bottom: 31px;
+}
+
+
 .header-text h2 {
   margin-top: -5px;
   margin-bottom: 31px;
