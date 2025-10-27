@@ -1,8 +1,9 @@
 .contact-ball_container {
   margin-top: 40px;
-  width: 814px;
+  width: 826px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 46px;
 }
 
 .contact-ball_block {
