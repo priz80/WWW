@@ -3,23 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta Cache-Control: max-age=31536000>
-    <meta name="description" content="Мы Веб-студия, разрабатываем сайты и веб приложения любого уровня и сложности.">
+    <meta Cache-Control: max-age="31536000" />
+    <meta
+      name="description"
+      content="Мы Веб-студия, разрабатываем сайты и веб приложения любого уровня и сложности."
+    />
     <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+  </head>
     <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./css/index.css" />
-  </head>
+    
   <body>
     <div class="slider-sl">
       <!-- slides -->
-      <div class="slides-sl" id="slidesContainer" style="transform: translateX(-100%);">
+      <div
+        class="slides-sl"
+        id="slidesContainer"
+        style="transform: translateX(-100%)"
+      >
         <!-- slide_2 -->
-        <div class="slide-sl" >
+        <div class="slide-sl">
           <div class="header">
             <div class="header-container">
               <div class="aside">
                 <div class="aside-line aside-line_header">
-                   <div class="aside-point_container aside-point_container_01">
+                  <div class="aside-point_container aside-point_container_01">
                     <div class="aside-number aside-number_light">01</div>
                     <div class="aside-point_border aside-point_border_light">
                       <div class="aside-point aside-point_light"></div>
@@ -86,7 +98,9 @@
                           <img src="./img/arrow.svg" alt="" />
                         </div>
                       </button>
-                      <a href="#contact"><p class="question">Остались вопросы?</p></a>
+                      <a href="#contact"
+                        ><p class="question">Остались вопросы?</p></a
+                      >
                     </div>
                   </div>
                   <div class="man">
@@ -103,209 +117,227 @@
             <div class="line"></div>
           </div>
           <!-- <main> -->
-            <section class="about" id="about">
-              <div class="aside">
-                <div class="aside-line aside-line_about">
-                  <div class="aside-point_container aside-point_container_02">
-                    <div class="aside-number aside-number_light">02</div>
-                    <div class="aside-point_border aside-point_border_light">
-                      <div class="aside-point aside-point_light"></div>
-                    </div>
+          <section class="about" id="about">
+            <div class="aside">
+              <div class="aside-line aside-line_about">
+                <div class="aside-point_container aside-point_container_02">
+                  <div class="aside-number aside-number_light">02</div>
+                  <div class="aside-point_border aside-point_border_light">
+                    <div class="aside-point aside-point_light"></div>
                   </div>
-                  <div class="aside-point_container">
-                    <div class="aside-number aside-number_dark">03</div>
-                    <div class="aside-point_border aside-point_border_dark">
-                      <div class="aside-point aside-point_dark"></div>
-                    </div>
+                </div>
+                <div class="aside-point_container">
+                  <div class="aside-number aside-number_dark">03</div>
+                  <div class="aside-point_border aside-point_border_dark">
+                    <div class="aside-point aside-point_dark"></div>
                   </div>
-                  <div class="aside-point_container">
-                    <div class="aside-number aside-number_dark">04</div>
-                    <div class="aside-point_border aside-point_border_dark">
-                      <div class="aside-point aside-point_dark"></div>
-                    </div>
+                </div>
+                <div class="aside-point_container">
+                  <div class="aside-number aside-number_dark">04</div>
+                  <div class="aside-point_border aside-point_border_dark">
+                    <div class="aside-point aside-point_dark"></div>
                   </div>
-                  <div class="aside-point_container">
-                    <div class="aside-number aside-number_dark">05</div>
-                    <div class="aside-point_border aside-point_border_dark">
-                      <div class="aside-point aside-point_dark"></div>
-                    </div>
+                </div>
+                <div class="aside-point_container">
+                  <div class="aside-number aside-number_dark">05</div>
+                  <div class="aside-point_border aside-point_border_dark">
+                    <div class="aside-point aside-point_dark"></div>
                   </div>
                 </div>
               </div>
-              <div class="container about-container">
-                <div class="about-block">
-                  <div class="about-text">
-                    <h3 class="h3-about">Причины сотрудничать с нами</h3>
-                    <p class="about-description">
-                      Вы можете посмотреть на сайты конкурентов где они кричат
-                      что лучшие, пока они только говорят об этом - мы говорим
-                      языком фактов
-                    </p>
-                    <p class="about-description">
-                      Вы можете за пару минут прочитать о нас информацию, а так
-                      же после этого посмотреть наше портфолио
-                    </p>
-                    <div class="button-about_block">
-                      <a href="#portfolio"><button type="button" class="button-about"><p>Портфолио</p></button></a>
-                      <div class="button-about_shadow"></div>
-                    </div>
-                  </div>
-                  <div class="about-card about-card_prise">
-                    <div class="about-card_text">
-                      <div class="about-card_title">Приемлимые цены </div>
-                      <div class="about-card_subtitle">Мы максимально стараемся снизить цены на нашу работу для того чтобы цены не кусались</div>
-                      <div class="about-card_image about-image_prise"></div>
-                    </div>
+            </div>
+            <div class="container about-container">
+              <div class="about-block">
+                <div class="about-text">
+                  <h3 class="h3-about">Причины сотрудничать с нами</h3>
+                  <p class="about-description">
+                    Вы можете посмотреть на сайты конкурентов где они кричат что
+                    лучшие, пока они только говорят об этом - мы говорим языком
+                    фактов
+                  </p>
+                  <p class="about-description">
+                    Вы можете за пару минут прочитать о нас информацию, а так же
+                    после этого посмотреть наше портфолио
+                  </p>
+                  <div class="button-about_block">
+                    <a href="#portfolio"
+                      ><button type="button" class="button-about">
+                        <p>Портфолио</p>
+                      </button></a
+                    >
+                    <div class="button-about_shadow"></div>
                   </div>
                 </div>
-                <div class="about-block">
-                  <div class="about-card">
-                    <div class="about-card_text">
-                      <div class="about-card_title">В сроки сдаем работу!</div>
-                      <div class="about-card_subtitle">Расписываем каждый этап по срокам, и придерживаемся дедлайнов</div>
-                      <div class="about-card_image about-image_time"></div>
+                <div class="about-card about-card_prise">
+                  <div class="about-card_text">
+                    <div class="about-card_title">Приемлимые цены</div>
+                    <div class="about-card_subtitle">
+                      Мы максимально стараемся снизить цены на нашу работу для
+                      того чтобы цены не кусались
                     </div>
-                  </div>
-                  <div class="about-card">
-                    <div class="about-card_text">
-                      <div class="about-card_title">Команда специалистов</div>
-                      <div class="about-card_subtitle">В нашей команде множество специалистов, и каждый из них хорошо знает свое дело</div>
-                      <div class="about-card_image about-image_employ"></div>
-                    </div>
-                  </div>
-                  <div class="about-card">
-                    <div class="about-card_text">
-                      <div class="about-card_title">Консультация перед заказом</div>
-                      <div class="about-card_subtitle">Наши менеджеры в сети 24/7, и готовы помочь вам, а так же ответить на ваши вопросы</div>
-                      <div class="about-card_image about-image_support"></div>
-                    </div>
+                    <div class="about-card_image about-image_prise"></div>
                   </div>
                 </div>
               </div>
-            </section>
-            <section class="portfolio" id="portfolio">
-              <div class="aside">
-                <div class="aside-line aside-line_portfolio">
-                  <div class="aside-point_container aside-point_container_03">
-                    <div class="aside-number aside-number_light">03</div>
-                    <div class="aside-point_border aside-point_border_light">
-                      <div class="aside-point aside-point_light"></div>
+              <div class="about-block">
+                <div class="about-card">
+                  <div class="about-card_text">
+                    <div class="about-card_title">В сроки сдаем работу!</div>
+                    <div class="about-card_subtitle">
+                      Расписываем каждый этап по срокам, и придерживаемся
+                      дедлайнов
                     </div>
+                    <div class="about-card_image about-image_time"></div>
                   </div>
-                  <div class="aside-point_container">
-                    <div class="aside-number aside-number_dark">04</div>
-                    <div class="aside-point_border aside-point_border_dark">
-                      <div class="aside-point aside-point_dark"></div>
+                </div>
+                <div class="about-card">
+                  <div class="about-card_text">
+                    <div class="about-card_title">Команда специалистов</div>
+                    <div class="about-card_subtitle">
+                      В нашей команде множество специалистов, и каждый из них
+                      хорошо знает свое дело
                     </div>
+                    <div class="about-card_image about-image_employ"></div>
                   </div>
-                  <div class="aside-point_container">
-                    <div class="aside-number aside-number_dark">05</div>
-                    <div class="aside-point_border aside-point_border_dark">
-                      <div class="aside-point aside-point_dark"></div>
+                </div>
+                <div class="about-card">
+                  <div class="about-card_text">
+                    <div class="about-card_title">
+                      Консультация перед заказом
                     </div>
+                    <div class="about-card_subtitle">
+                      Наши менеджеры в сети 24/7, и готовы помочь вам, а так же
+                      ответить на ваши вопросы
+                    </div>
+                    <div class="about-card_image about-image_support"></div>
                   </div>
                 </div>
               </div>
-              <div class="container portfolio-container">
-                <div class="portfolio-block">
-                  <div class="portfolio-text">
-                    <h3>Наше портфолио</h3>
-                    <p class="portfolio-description">
-                      В данном портфолио вы сможете увидеть кейсы наших работ на
-                      2022 - 2023 год
-                    </p>
-                    <button class="button-portfolio">
-                      <p>Компьютерные версии</p>
+            </div>
+          </section>
+          <section class="portfolio" id="portfolio">
+            <div class="aside">
+              <div class="aside-line aside-line_portfolio">
+                <div class="aside-point_container aside-point_container_03">
+                  <div class="aside-number aside-number_light">03</div>
+                  <div class="aside-point_border aside-point_border_light">
+                    <div class="aside-point aside-point_light"></div>
+                  </div>
+                </div>
+                <div class="aside-point_container">
+                  <div class="aside-number aside-number_dark">04</div>
+                  <div class="aside-point_border aside-point_border_dark">
+                    <div class="aside-point aside-point_dark"></div>
+                  </div>
+                </div>
+                <div class="aside-point_container">
+                  <div class="aside-number aside-number_dark">05</div>
+                  <div class="aside-point_border aside-point_border_dark">
+                    <div class="aside-point aside-point_dark"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container portfolio-container">
+              <div class="portfolio-block">
+                <div class="portfolio-text">
+                  <h3>Наше портфолио</h3>
+                  <p class="portfolio-description">
+                    В данном портфолио вы сможете увидеть кейсы наших работ на
+                    2022 - 2023 год
+                  </p>
+                  <button class="button-portfolio">
+                    <p>Компьютерные версии</p>
+                  </button>
+                </div>
+                <div class="slider-portfolio"></div>
+              </div>
+            </div>
+          </section>
+          <section class="tarif" id="tarif">
+            <div class="aside">
+              <div class="aside-line aside-line_tarif">
+                <div class="aside-point_container aside-point_container_04">
+                  <div class="aside-number aside-number_light">04</div>
+                  <div class="aside-point_border aside-point_border_light">
+                    <div class="aside-point aside-point_light"></div>
+                  </div>
+                </div>
+                <div class="aside-point_container">
+                  <div class="aside-number aside-number_dark">05</div>
+                  <div class="aside-point_border aside-point_border_dark">
+                    <div class="aside-point aside-point_dark"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container tarif-container">
+              <div class="tarif-block">
+                <div class="tarif-text">
+                  <h3>Тарифы</h3>
+                </div>
+                <div class="slider-tarif">
+                  <div class="tarif-card"></div>
+                  <div class="tarif-card_main"></div>
+                  <div class="tarif-card"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="forma" id="forma">
+            <div class="container forma-container">
+              <div class="forma-block">
+                <div class="forma-text">
+                  <h4>Оставь заявку</h4>
+                </div>
+                <form action="" class="forma_">
+                  <div class="discrition">
+                    <p>Ваше ФИО</p>
+                    <input class="field" type="text" placeholder="Имя" />
+                  </div>
+                  <div class="discrition">
+                    <p>Ваш номер телефона</p>
+                    <input class="field" type="text" placeholder="Телефон" />
+                  </div>
+                  <div class="discrition">
+                    <p>Бюджет на сайт</p>
+                    <input class="field" type="number" placeholder="Бюджет" />
+                  </div>
+                  <div class="discrition">
+                    <p>Ваш E-MAIL адрес</p>
+                    <input class="field" type="email" placeholder="E-mail" />
+                  </div>
+                  <div class="discrition">
+                    <p>Ваш комментарий (по желанию)</p>
+                    <input
+                      class="field"
+                      type="text"
+                      placeholder="Комментарий"
+                    />
+                  </div>
+                  <div class="button-forma_container">
+                    <button type="submit" class="button-forma">
+                      <p>Отправить</p>
                     </button>
                   </div>
-                  <div class="slider-portfolio"></div>
-                </div>
+                </form>
               </div>
-            </section>
-            <section class="tarif" id="tarif">
-              <div class="aside">
-                <div class="aside-line aside-line_tarif">
-                  <div class="aside-point_container aside-point_container_04">
-                    <div class="aside-number aside-number_light">04</div>
-                    <div class="aside-point_border aside-point_border_light">
-                      <div class="aside-point aside-point_light"></div>
-                    </div>
-                  </div>
-                  <div class="aside-point_container">
-                    <div class="aside-number aside-number_dark">05</div>
-                    <div class="aside-point_border aside-point_border_dark">
-                      <div class="aside-point aside-point_dark"></div>
-                    </div>
-                  </div>
+              <div class="phone-block"></div>
+            </div>
+          </section>
+          <section class="contact" id="contact">
+            <div class="container contact-container">
+              <div class="contact-block">
+                <div class="star-small star-right_up"></div>
+                <div class="contact-text">
+                  <div class="star star-left_up"></div>
+                  <h5>Контакты</h5>
+                  <div class="star star-right"></div>
                 </div>
+                <div class="star-small star-left"></div>
               </div>
-              <div class="container tarif-container">
-                <div class="tarif-block">
-                  <div class="tarif-text">
-                    <h3>Тарифы</h3>
-                  </div>
-                  <div class="slider-tarif">
-                    <div class="tarif-card"></div>
-                    <div class="tarif-card_main"></div>
-                    <div class="tarif-card"></div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="forma" id="forma">
-              <div class="container forma-container">
-                <div class="forma-block">
-                  <div class="forma-text">
-                    <h4>Оставь заявку</h4>
-                  </div>
-                  <form action="" class="forma_">
-                    <div class="discrition">
-                      <p>Ваше ФИО</p>
-                      <input class="field" type="text" placeholder="Имя" />
-                    </div>
-                    <div class="discrition">
-                      <p>Ваш номер телефона</p>
-                      <input class="field" type="text" placeholder="Телефон" />
-                    </div>
-                    <div class="discrition">
-                      <p>Бюджет на сайт</p>
-                      <input class="field" type="number" placeholder="Бюджет" />
-                    </div>
-                    <div class="discrition">
-                      <p>Ваш E-MAIL адрес</p>
-                      <input class="field" type="email" placeholder="E-mail" />
-                    </div>
-                    <div class="discrition">
-                      <p>Ваш комментарий (по желанию)</p>
-                      <input
-                        class="field"
-                        type="text"
-                        placeholder="Комментарий"
-                      />
-                    </div>
-                    <div class="button-forma_container">
-                      <button type="submit" class="button-forma">
-                        <p>Отправить</p>
-                      </button>
-                    </div>
-                  </form>
-                </div>
-                <div class="phone-block"></div>
-              </div>
-            </section>
-            <section class="contact" id="contact">
-              <div class="container contact-container">
-                <div class="contact-block">
-                  <div class="star-small star-right_up"></div>
-                  <div class="contact-text">
-                    <div class="star star-left_up"></div>
-                    <h5>Контакты</h5>
-                    <div class="star star-right"></div>
-                  </div>
-                  <div class="star-small star-left"></div>
-                </div>
-              </div>
-            </section>
+            </div>
+          </section>
           <!-- </main> -->
         </div>
         <!-- end slide_2 -->
@@ -388,7 +420,9 @@
                           <img src="./img/arrow.svg" alt="" />
                         </div>
                       </button>
-                      <a href="#contact"><p class="question">Остались вопросы?</p></a>
+                      <a href="#contact"
+                        ><p class="question">Остались вопросы?</p></a
+                      >
                     </div>
                   </div>
                   <div class="man">
@@ -447,14 +481,21 @@
                       наше портфолио
                     </p>
                     <div class="button-about_block">
-                      <a href="#portfolio"><button type="button" class="button-about"><p>Портфолио</p></button></a>
+                      <a href="#portfolio"
+                        ><button type="button" class="button-about">
+                          <p>Портфолио</p>
+                        </button></a
+                      >
                       <div class="button-about_shadow"></div>
                     </div>
                   </div>
                   <div class="about-card about-card_prise">
                     <div class="about-card_text">
-                      <div class="about-card_title">Приемлимые цены </div>
-                      <div class="about-card_subtitle">Мы максимально оптимизируем наш труд, для того, чтобы цены были доступными</div>
+                      <div class="about-card_title">Приемлимые цены</div>
+                      <div class="about-card_subtitle">
+                        Мы максимально оптимизируем наш труд, для того, чтобы
+                        цены были доступными
+                      </div>
                       <div class="about-card_image about-image_prise"></div>
                     </div>
                   </div>
@@ -463,21 +504,32 @@
                   <div class="about-card">
                     <div class="about-card_text">
                       <div class="about-card_title">В сроки сдаем работу!</div>
-                      <div class="about-card_subtitle">Расписываем каждый этап по срокам, и придерживаемся дедлайнов</div>
+                      <div class="about-card_subtitle">
+                        Расписываем каждый этап по срокам, и придерживаемся
+                        дедлайнов
+                      </div>
                       <div class="about-card_image about-image_time"></div>
                     </div>
                   </div>
                   <div class="about-card">
                     <div class="about-card_text">
                       <div class="about-card_title">Команда специалистов</div>
-                      <div class="about-card_subtitle">В нашей команде множество специалистов, и каждый из них хорошо знает свое дело</div>
+                      <div class="about-card_subtitle">
+                        В нашей команде множество специалистов, и каждый из них
+                        хорошо знает свое дело
+                      </div>
                       <div class="about-card_image about-image_employ"></div>
                     </div>
                   </div>
                   <div class="about-card">
                     <div class="about-card_text">
-                      <div class="about-card_title">Консультация перед заказом</div>
-                      <div class="about-card_subtitle">Наши менеджеры в сети 24/7, и готовы помочь вам, а так же ответить на ваши вопросы</div>
+                      <div class="about-card_title">
+                        Консультация перед заказом
+                      </div>
+                      <div class="about-card_subtitle">
+                        Наши менеджеры в сети 24/7, и готовы помочь вам, а так
+                        же ответить на ваши вопросы
+                      </div>
                       <div class="about-card_image about-image_support"></div>
                     </div>
                   </div>
@@ -519,7 +571,31 @@
                       <p>Компьютерные версии</p>
                     </button>
                   </div>
-                  <div class="slider-portfolio"></div>
+                  
+                  <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="./img/slider-portfolio/slide1.svg" alt="slide 1"></div>
+                      <div class="swiper-slide"><img src="./img/slider-portfolio/slide2.svg" alt="slide 2"></div>
+                      <div class="swiper-slide"><img src="./img/slider-portfolio/slide3.svg" alt="slide 3"></div>
+                      <div class="swiper-slide"><img src="./img/slider-portfolio/slide4.svg" alt="slide 4"></div>
+                      <div class="swiper-slide"><img src="./img/slider-portfolio/slide5.svg" alt="slide 5"></div>
+                      <div class="swiper-slide"><img src="./img/slider-portfolio/slide6.svg" alt="slide 6"></div>
+                      <div class="swiper-slide"><img src="./img/slider-portfolio/slide7.svg" alt="slide 7"></div>
+                      ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <!-- <div class="swiper-pagination"></div> -->
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                  </div>
+
                 </div>
               </div>
             </section>
@@ -591,29 +667,39 @@
                     </div>
                   </form>
                 </div>
-                
-                  
-                  <div class="phone-block">
-                    <div class="notification">
-                    <div class="notification-image"><img src="./img/Ellipse 4.svg" alt="">
-                        <div class="notification-image_phone"><img src="./img/Group4.svg" alt=""></div>
+
+                <div class="phone-block">
+                  <div class="notification">
+                    <div class="notification-image">
+                      <img src="./img/Ellipse 4.svg" alt="" />
+                      <div class="notification-image_phone">
+                        <img src="./img/Group4.svg" alt="" />
                       </div>
-                      <div class="notification-text">
-                        <p class="notification-text_title">Уведомление!</p>
-                        <p class="notification-text_subtitle">В скорейшем времени вам перезвонят</p>
+                    </div>
+                    <div class="notification-text">
+                      <p class="notification-text_title">Уведомление!</p>
+                      <p class="notification-text_subtitle">
+                        В скорейшем времени вам перезвонят
+                      </p>
                     </div>
                   </div>
                   <div class="notification-end">
-                      <div class="notification-image_end"><img src="./img/Ellipse 5.svg" alt="">
-                        <div class="notification-image_ball"><img src="./img/Group5.svg" alt=""></div>
+                    <div class="notification-image_end">
+                      <img src="./img/Ellipse 5.svg" alt="" />
+                      <div class="notification-image_ball">
+                        <img src="./img/Group5.svg" alt="" />
                       </div>
-                      <div class="notification-text_end">
-                        <p class="notification-text_title_end">Работа закончена!</p>
-                        <p class="notification-text_subtitle_end">Мы закончили работу над вашим сайтом</p>
-                      </div>
+                    </div>
+                    <div class="notification-text_end">
+                      <p class="notification-text_title_end">
+                        Работа закончена!
+                      </p>
+                      <p class="notification-text_subtitle_end">
+                        Мы закончили работу над вашим сайтом
+                      </p>
+                    </div>
                   </div>
-                  </div>
-                
+                </div>
               </div>
             </section>
             <section class="contact" id="contact">
@@ -630,7 +716,7 @@
                   <div class="star-small star-left"></div>
                 </div>
               </div>
-            </section>                    
+            </section>
           </main>
         </div>
         <!-- end slide_1 -->
@@ -688,5 +774,7 @@
 
     <script async src="./js/sl.js"></script>
     <script async src="./js/contacty.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
