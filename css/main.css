@@ -8,17 +8,18 @@
 
 body {
   background-color: #161617;
-  font-family: 'Ruberoid', sans-serif;
+  font-family: "Ruberoid", sans-serif;
   color: #fff;
   font-style: normal;
   font-weight: 400;
 }
 
-p, a, button {
-  font-family: 'Ruberoid', sans-serif;
+p,
+a,
+button {
+  font-family: "Ruberoid", sans-serif;
   color: #fff;
 }
-
 
 .container {
   width: 90%;
