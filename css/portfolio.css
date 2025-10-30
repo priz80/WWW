@@ -21,6 +21,7 @@
 
 .portfolio-description {
   width: 526px;
+  margin: 0;
   margin-top: 23px;
   margin-bottom: 44px;
   color: rgba(255, 255, 255, 0.65);
