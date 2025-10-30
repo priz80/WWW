@@ -1,0 +1,33 @@
+.arrow {
+  /*   position: absolute; */
+  display: flex;
+  /* z-index: 1; */
+}
+
+.prev-container,
+.next-container {
+  margin: 0;
+  padding: 0;
+  width: 70px;
+  height: 70px;
+  border: 1.5px solid #153630;
+  border-radius: 49px;
+  box-shadow: 0 0 106px 0 rgba(46, 236, 197, 0.1);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prev,
+.next {
+  border: 1.5px solid rgba(46, 236, 197, 0.5);
+  border-radius: 49px;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 0 106px 0 rgba(46, 236, 197, 0.1);
+  background: linear-gradient(166deg, #19201f 0%, #323939 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
