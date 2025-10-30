@@ -14,13 +14,14 @@
   justify-content: center;
 }
 
-.slider-tarif {
+/* .slider-tarif {
   display: flex;
   gap: 32px;
   align-items: center;
-}
+  margin: 0;
+} */
 
-.tarif-card_main {
+/* .tarif-card_main {
   width: 370px;
   height: 570px;
   border-radius: 36px;
@@ -31,9 +32,9 @@
     #292929 61.88%,
     #282828 111.76%
   );
-}
+} */
 
-.tarif-card {
+/* .tarif-card {
   width: 295px;
   height: 411px;
   border-radius: 36px;
@@ -47,3 +48,4 @@
   stroke-width: 1px;
   stroke: rgba(255, 255, 255, 0.1);
 }
+ */
