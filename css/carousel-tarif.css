@@ -30,6 +30,17 @@
   background: linear-gradient(155deg, #313134 0%, #292929 51.31%, #282828 100%);
 }
 
+
+.slide-tarif_false {
+  min-width: 30.33%;
+  box-sizing: border-box;
+  border: #161617;
+  
+  min-width: 370px;
+  height: 570px;
+  background: #161617;
+}
+
 .arrow-tarif {
   position: absolute;
   top: 42%;
