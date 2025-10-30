@@ -6,7 +6,7 @@ const next = document.getElementById("next-tarif");
 
 // Константы
 const slideW = 370; // Ширина картинки
-const gapt = 32; // Расстояние между картинками
+const gapt = 0; // Расстояние между картинками
 const totalSlideslengh = slidestarif.length;
 
 // Индекс текущего слайда
