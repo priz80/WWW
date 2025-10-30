@@ -12,17 +12,12 @@
 .portfolio-block {
   display: flex;
   justify-content: space-between;
+  gap: 140px;
 }
 .portfolio-text {
   margin: 0;
 }
 
-.slider-portfolio {
-  margin: 0;
-  width: 567px;
-  height: 363px;
-  background: #1b0244;
-}
 
 .portfolio-description {
   width: 526px;
