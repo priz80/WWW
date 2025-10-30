@@ -14,9 +14,9 @@ let ex = 0;
 slidestarif[ex].style.transform = `scale(1)`;
 
 // Функция обновления позиции
-function updateSlider() {
-  const offset = -ex * (slideW + gapt);
-  wrapper.style.transform = `translateX(${offset}px)`;
+function updateSliders() {
+  const offsets = -ex * (slideW + gapt);
+  wrapper.style.transform = `translateX(${offsets}px)`;
 }
 
 // Обработчики событий
@@ -38,7 +38,7 @@ prev.addEventListener("click", () => {
     slidestarif[ex].style.transition = "transform 0.5s ease-in-out";
   }
 
-  updateSlider();
+  updateSliders();
 });
 
 next.addEventListener("click", () => {
@@ -56,5 +56,5 @@ next.addEventListener("click", () => {
   } else {
     slidestarif[ex - 1].style.transform = `scale(0.8)`;
   }
-  updateSlider();
+  updateSliders();
 });
