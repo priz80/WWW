@@ -1,14 +1,23 @@
-.carousel-container {
+.slider-tarif_container {
   position: relative;
-  max-width: 1024px;
+  /*  margin: 0; */
+  /*   display: flex;
+  align-items: center; */
   margin: 0 auto;
-  overflow: hidden;
 }
 
-.carousel-wrapper {
+.slider-tarif {
+  position: relative;
+  width: 1174px;
+  /* overflow: hidden; */
+  margin: 0;
+}
+
+.slides-tarif {
+  margin: 0;
   display: flex;
-  transition: transform 0.5s ease-in-out;
   gap: 32px;
+  transition: transform 0.5s ease;
 }
 
 .slide-tarif {
@@ -16,27 +25,25 @@
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 36px;
-  width: 370px;
+  min-width: 370px;
   height: 570px;
   background: linear-gradient(155deg, #313134 0%, #292929 51.31%, #282828 100%);
 }
 
-.carousel-wrapper {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-  /* Убираем overflow, чтобы видеть дублированные слайды */
+.arrow-tarif {
+  position: absolute;
+  top: 42%;
+  gap: 1034px;
 }
 
-.arrow {
+/* .arrow {
   position: absolute;
   display: flex;
-  /* z-index: 1; */
   gap: 854px;
-  /* margin-left: -35px; */
   top: 43%;
-}
+} */
 
-.prev-container,
+/* .prev-container,
 .next-container {
   padding: 0;
   width: 70px;
@@ -49,8 +56,8 @@
   align-items: center;
   justify-content: center;
 }
-
-.prev,
+ */
+/* .prev,
 .next {
   border: 1.5px solid rgba(46, 236, 197, 0.5);
   border-radius: 49px;
@@ -61,13 +68,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
-.prev img,
+/* .prev img,
 .next img {
   width: 13px;
   height: 23px;
-}
+} */
 
 .slide-text_container {
   /* width: 323px; */
@@ -87,15 +94,14 @@
   color: rgba(255, 255, 255, 0.75);
 }
 
-
 .slide-tarif_price {
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .tarif-price {
-font-weight: 400;
-font-size: 22px;
-line-height: 154%;
-color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 154%;
+  color: #fff;
 }
