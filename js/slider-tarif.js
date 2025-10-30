@@ -1,57 +1,61 @@
-const wrapper = document.querySelector(".carousel-wrapper");
+// Получаем элементы
+const wrapper = document.querySelector(".slides-tarif");
 const slidestarif = document.querySelectorAll(".slide-tarif");
-/* console.log(slidestarif); */
-const prevBtn = document.querySelector(".prev-container");
-const nextBtn = document.querySelector(".next-container");
+const prev = document.getElementById("prev-tarif");
+const next = document.getElementById("next-tarif");
 
-let currentIndex = 2; // Начинаем с середины дублированных слайдов
+// Константы
+const slideW = 370; // Ширина картинки
+const gapt = 32; // Расстояние между картинками
+const totalSlideslengh = slidestarif.length;
 
-function updateCarousel() {
-  const offset = (-currentIndex * 100) / 3; // 33.33% на слайд
-  wrapper.style.transform = `translateX(${offset}%)`;
-  slidestarif[currentIndex + 1].style.transform = `scale(1)`;
-  slidestarif[currentIndex].style.transform = `scale(0.8)`;
-  slidestarif[currentIndex - 1].style.transform = `scale(0.8)`;
-  slidestarif[currentIndex + 2].style.transform = `scale(0.8)`;
-  slidestarif[currentIndex].style.transition = "transform 0.5s ease-in-out";
-  slidestarif[currentIndex + 1].style.transition = "transform 0.5s ease-in-out";
+// Индекс текущего слайда
+let ex = 0;
+slidestarif[ex + 1].style.transform = `scale(1)`;
+// Функция обновления позиции
+function updateSlider() {
+  const offset = -ex * (slideW + gapt);
+  wrapper.style.transform = `translateX(${offset}px)`;
 }
 
-// Бесконечная логика для кнопки "Вперед"
-nextBtn.addEventListener("click", () => {
-  if (currentIndex < slidestarif.length - 3) {
-    currentIndex++;
+// Обработчики событий
+prev.addEventListener("click", () => {
+  if (ex < 5 && ex != 0) {
+    ex = (ex - 1 + totalSlideslengh) % totalSlideslengh;
   } else {
-    // Переход к началу (сброс с эффектом)
-    currentIndex = 2;
-    wrapper.style.transition = "none";
-    slidestarif[8].style.transform = `scale(0.8)`;
-    updateCarousel();
-    setTimeout(
-      () => (wrapper.style.transition = "transform 0.5s ease-in-out"),
-      10
-    );
+    ex = 4;
   }
-  updateCarousel();
+  console.log(ex);
+  slidestarif[1].style.transform = `scale(0.8)`;
+  if (ex < 4) {
+    slidestarif[ex + 2].style.transform = `scale(0.8)`;
+    slidestarif[ex + 2].style.transition = "transform 0.5s ease-in-out";
+  }
+  if (ex < 5) {
+    slidestarif[ex + 1].style.transform = `scale(1)`;
+    slidestarif[ex + 1].style.transition = "transform 0.5s ease-in-out";
+  }
+  updateSlider();
 });
 
-// Бесконечная логика для кнопки "Назад"
-prevBtn.addEventListener("click", () => {
-  if (currentIndex > 0) {
-    currentIndex--;
-    slidestarif[2].style.transform = `scale(0.8)`;
+if(ex < 4) {
+    next.addEventListener("click", () => {
+  if (ex < 4) {
+    ex = (ex + 1) % totalSlideslengh;
   } else {
-    // Переход к концу (сброс с эффектом)
-    currentIndex = slidestarif.length - 3 - 1;
-    wrapper.style.transition = "none";
-    updateCarousel();
-    setTimeout(
-      () => (wrapper.style.transition = "transform 0.5s ease-in-out"),
-      10
-    );
+    slidestarif[ex + 1].style.transform = `scale(0.8)`;
+    ex = 0;
   }
-  updateCarousel();
+  console.log(ex);
+  if (ex < 5) {
+    slidestarif[ex].style.transform = `scale(0.8)`;
+    slidestarif[ex + 1].style.transform = `scale(1)`;
+    slidestarif[ex].style.transition = "transform 0.5s ease-in-out";
+    slidestarif[ex + 1].style.transition = "transform 0.5s ease-in-out";
+  } else {
+    slidestarif[ex].style.transform = `scale(0.8)`;
+    /* slidestarif[ex + 1].style.transform = `scale(1)`; */
+  }
+  updateSlider();
 });
-
-// Инициализация
-updateCarousel();
+}
