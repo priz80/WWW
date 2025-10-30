@@ -1,8 +1,8 @@
 // Получаем элементы
 const slidesContainer = document.querySelector('.slides-portfolio');
 const slideslenght = document.querySelectorAll('.slide-portfolio');
-const prevBtn = document.querySelector('.prev-portfolio_container');
-const nextBtn = document.querySelector('.next-portfolio_container');
+const prevBtn = document.getElementById('prev-portfolio');
+const nextBtn = document.getElementById('next-portfolio');
 
 // Константы
 const slideWidth = 567; // Ширина картинки
