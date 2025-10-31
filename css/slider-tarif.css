@@ -22,8 +22,6 @@
 }
 
 .slide-tarif {
-  /* min-width: 30.33%; */
-  /* box-sizing: border-box; */
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 32px;
   min-width: 370px;
