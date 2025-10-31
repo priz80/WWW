@@ -17,8 +17,7 @@
     // Обработчик наведения
     contactball_s.addEventListener('mouseover', () => {
         contactball_s.classList.add('contact-ball_hover');
-        ball_s.classList.add('ball-hover');
-        
+        ball_s.classList.add('ball-hover');        
     });
 
     contactball_m.addEventListener('mouseover', () => {
