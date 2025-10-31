@@ -1,7 +1,5 @@
 .arrow {
-  /*   position: absolute; */
   display: flex;
-  /* z-index: 1; */
 }
 
 .prev-container,
@@ -19,12 +17,6 @@
   justify-content: center;
 }
 
-.prev-container_scale,
-.next-container_scale {
-  width: 90px;
-  height: 90px;
-}
-
 .prev,
 .next {
   border: 1.5px solid rgba(46, 236, 197, 0.5);
@@ -36,10 +28,4 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.prev-scale,
-.next-scale {
-  width: 75px;
-  height: 75px;
 }
