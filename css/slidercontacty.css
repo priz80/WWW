@@ -42,8 +42,6 @@
 }
 
 .ball {
-  /* width: 90px;
-  height: 90px; */
   margin: 0;
   display: flex;
   justify-content: center;
