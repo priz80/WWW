@@ -93,9 +93,7 @@
                           <img src="./img/arrow.svg" alt="" />
                         </div>
                       </button>
-                      <a href="#"
-                        ><p class="question">Остались вопросы?</p></a
-                      >
+                      <a href="#"><p class="question">Остались вопросы?</p></a>
                     </div>
                   </div>
                   <div class="man">
@@ -378,20 +376,27 @@
                 <div class="lamp"></div>
                 <div class="menu">
                   <div class="logo">
-                    <div class="logo-studio">studio</div>
-                    <div class="logo-web">web</div>
+                    <div class="logo-studio"></div>
+                    <div class="logo-web"></div>
                   </div>
-                  <menu class="main-menu">
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#about">Почему именно мы?</a></li>
-                    <li><a href="#contact">Контакты</a></li>
-                  </menu>
+                  <!-- <menu class="main-menu"> -->
+                    <ul class="main-menu">
+                      <li><a href="#">Главная</a></li>
+                      <li><a href="#about">Почему именно мы?</a></li>
+                      <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                  <!-- </menu> -->
                   <div class="button">
                     <div class="button-image">
                       <div class="text">
                         <a href="#forma"><p>Заказать</p></a>
                       </div>
                     </div>
+                  </div>
+                  <div class="burger" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                   </div>
                 </div>
                 <div class="header-content">
@@ -825,7 +830,6 @@
                         name="name"
                         placeholder="Имя"
                         required
-                        
                       />
                     </div>
                     <div class="discrition">
@@ -865,7 +869,11 @@
                         placeholder="Комментарий"
                       />
                     </div>
-                    <input type="hidden" name="_subject" value="Новое сообщение с сайта StudioWeb!" />
+                    <input
+                      type="hidden"
+                      name="_subject"
+                      value="Новое сообщение с сайта StudioWeb!"
+                    />
                     <div class="button-forma_container">
                       <button type="submit" class="button-forma">
                         <p>Отправить</p>
@@ -983,5 +991,6 @@
     <script async src="./js/slider-portfolio.js"></script>
     <script async src="./js/slider-tarif.js"></script>
     <script async src="./js/arrow.js"></script>
+    <script async src="./js/burger.js"></script>
   </body>
 </html>
