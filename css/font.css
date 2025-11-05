@@ -1,40 +1,91 @@
 h1,
 h2,
-h3,
-h4 {
-  background: linear-gradient(91deg, #b5feef 10.31%, #2eecc5 165.09%);
+h4,
+h6 {
+  background: linear-gradient(149deg, #b5feef 0%, #2eecc5 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 h1 {
+  font-weight: bold;
   font-size: 65px;
-  line-height: normal;
   text-transform: uppercase;
 }
 
 h2 {
+  font-weight: bold;
   font-size: 45px;
-  line-height: normal;
   text-transform: uppercase;
 }
 
 h3 {
-  text-shadow: 0 0 36px rgba(165, 252, 235, 0.2);
-  font-size: 55px;
-  line-height: 110.6%; /* 60.83px */
+  font-weight: 500;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.65);
+  max-width: 672px;
+  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 53px;
+}
+
+h3::after {
+  content: "Мы - студия web-разработки, работаем уже более 3-х лет, готовы разработать для вас сайт в кротчайшие сроки.";
+}
+
+@media (max-width: 1524px) {
+  h3::after {
+    content: "Мы web-студия которая работает уже больше 3-х лет";
+  }
 }
 
 h4 {
-  text-shadow: 0 0 36px rgba(165, 252, 235, 0.2);
-  font-size: 50px;
-  line-height: 110.6%; /* 55.3px */
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 111%;
+  text-shadow: 0 0 36px 0 rgba(165, 252, 235, 0.2);
 }
 
 h5 {
-  color: var(--Mono-White, #fff);
+  font-weight: 500;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.65);
+  margin-bottom: 13px;
+}
+
+h6 {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 111%;
+}
+
+h7 {
+  font-weight: bold;
   font-size: 96px;
-  line-height: normal;
-  letter-spacing: 1.92px;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+@media (max-width: 1524px) {
+  h1 {
+    font-size: 27px;
+  }
+
+  h3 {
+    font-size: 13px;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size: 11px;
+  }
+
+  h6 {
+    font-size: 37px;
+  }
+
 }
