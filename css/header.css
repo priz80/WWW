@@ -1,11 +1,9 @@
-.header {
-}
-
 .header-container {
-  min-height: 1055px;
+  max-height: 1055px;
   background-image: url(../img/room.svg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .line {
@@ -32,7 +30,6 @@
   max-width: 100%;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   margin-bottom: 220px;
 }
 
@@ -43,12 +40,9 @@
 }
 .logo-studio {
   transform: rotate(-0.192deg);
-  /* color: #fff; */
-  /* font-family: Ruberoid; */
   font-size: 17px;
-  /* font-style: normal; */
   font-weight: bold;
-  line-height: 140.6%; /* 23.902px */
+  line-height: 140.6%;
   letter-spacing: 5.27px;
   text-transform: uppercase;
 }
@@ -58,12 +52,9 @@
 }
 .logo-web {
   transform: rotate(-0.192deg);
-  /* color: #fff; */
-  /* font-family: Ruberoid; */
   font-size: 40px;
-  /* font-style: normal; */
   font-weight: bold;
-  line-height: 140.6%; /* 56.24px */
+  line-height: 140.6%;
   letter-spacing: -4.6px;
   text-transform: uppercase;
   margin-top: -18px;
@@ -130,13 +121,9 @@
   line-height: normal;
 }
 
-/* .main-menu li {
-  list-style: none;
-  padding: 0;
-} */
-
 .header-content {
   display: flex;
+  justify-content: space-between;
 }
 
 .header-text {
@@ -144,7 +131,7 @@
   min-width: 808px;
 }
 
-.h1-blur p {
+.h1-blur {
   font-weight: bold;
   font-size: 65px;
   background: linear-gradient(149deg, #b5feef 0%, #2eecc5 100%);
@@ -156,7 +143,7 @@
   margin-top: -89px;
 }
 
-.h2-blur p {
+.h2-blur {
   font-weight: bold;
   font-size: 45px;
   background: linear-gradient(149deg, #b5feef 0%, #2eecc5 100%);
@@ -172,15 +159,6 @@
 .header-text h2 {
   margin-top: -5px;
   margin-bottom: 31px;
-}
-
-.header-description {
-  color: rgba(255, 255, 255, 0.65);
-  font-size: 22px;
-  line-height: normal;
-  max-width: 672px;
-  margin: 0;
-  margin-bottom: 53px;
 }
 
 .button-block {
@@ -227,57 +205,49 @@
 }
 
 .man {
+  position: relative;
   margin: 0;
   padding: 0;
-  height: 729px;
   display: flex;
 }
 .man-image {
-  margin-top: -115px;
-  margin-left: -7px;
+  position: relative;
+  width: 663px;
+  height: 844px;
+  top: -115px;
+  left: 46px;
   z-index: 1;
+  background-image: url(../img/man.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .circle-image {
   position: absolute;
-  margin-left: 66px;
-  margin-top: 8px;
+  width: 700px;
+  height: 700px;
+  left: 119px;
+  top: 8px;
+  background-image: url(../img/circle.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-@media (max-width: 1905px) {
-  .man-image {
-    margin-top: -115px;
-    margin-left: -92px;
-    z-index: 1;
+
+
+
+@media (max-width: 1524px) {
+  .header-container {
+    min-height: 640px;
   }
 
-  .circle-image {
-    position: absolute;
-    margin-left: -20px;
-    margin-top: 8px;
-  }
-}
-@media (max-width: 1730px) {
-  .man-image {
-    margin-top: -115px;
-    margin-left: -192px;
-    z-index: 1;
-  }
-
-  .circle-image {
-    position: absolute;
-    margin-left: -120px;
-    margin-top: 8px;
-  }
-}
-
-@media (max-width: 1520px) {
   .lamp {
     display: none;
   }
   .menu {
     flex-direction: row-reverse;
     margin-top: 49px;
+    margin-bottom: 140px;
   }
   .button {
     display: none;
@@ -325,8 +295,6 @@
   }
 
   ul li:hover {
-    /* width: 326px; */
-    /* height: 43px; */
     background: linear-gradient(
       100deg,
       #30dbb8 0%,
@@ -352,5 +320,56 @@
   }
   .logo-web {
     display: none;
+  }
+
+  .header-text {
+    min-width: 228px;
+  }
+
+  .h1-blur {
+    display: none;
+  }
+  .h2 {
+    display: none;
+  }
+
+  .man-image {
+    /* position: relative; */
+    width: 330px;
+    height: 412px;
+    top: 0;
+    left: 118px;
+  }
+
+  .circle-image {
+    /* position: absolute; */
+    width: 347px;
+    height: 347px;
+    left: 140px;
+    top: 70px;
+  }
+}
+
+@media (max-width: 620px) {
+  .man-image {
+    left: 67px;
+  }
+}
+
+@media (max-width: 576px) {
+  .man-image {
+    left: -50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .man-image {
+    left: -76px;
+  }
+}
+
+@media (max-width: 380px) {
+  .man-image {
+    left: -125px;
   }
 }
