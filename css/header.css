@@ -94,11 +94,7 @@
 }
 
 .text p {
-  /* color: #fff; */
-  /* font-family: Ruberoid; */
   font-size: 20px;
-  /* font-style: normal; */
-  /* font-weight: 400; */
   line-height: normal;
 }
 
@@ -113,11 +109,7 @@
 }
 
 .main-menu a {
-  /* color: #fff; */
-  /* font-family: Ruberoid; */
   font-size: 20px;
-  /* font-style: normal; */
-  /* font-weight: 400; */
   line-height: normal;
 }
 
@@ -168,10 +160,7 @@ margin-bottom: 31px;
 
 .header-description {
   color: rgba(255, 255, 255, 0.65);
-  /* font-family: Ruberoid; */
   font-size: 22px;
-  /* font-style: normal; */
-  /* font-weight: 400; */
   line-height: normal;
   max-width: 672px;
   margin: 0;
@@ -205,11 +194,7 @@ margin-bottom: 31px;
 
 .button-description {
   margin: 0;
-  /* color: #fff; */
-  /* font-family: Ruberoid; */
   font-size: 19px;
-  /* font-style: normal; */
-  /* font-weight: 400; */
   line-height: normal;
 }
 
@@ -221,10 +206,7 @@ margin-bottom: 31px;
 
 .question {
   color: rgba(255, 255, 255, 0.4);
-  /* font-family: Ruberoid; */
   font-size: 19px;
-  /* font-style: normal; */
-  /* font-weight: 400; */
   line-height: normal;
 }
 
@@ -271,4 +253,17 @@ margin-bottom: 31px;
     margin-left: -120px;
     margin-top: 8px;
   }
+}
+
+@media (max-width: 1520px) {
+  
+.menu {
+    flex-direction: row-reverse;
+}
+.button {
+    display: none;
+}
+.burger {
+  
+}
 }
