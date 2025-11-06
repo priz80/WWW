@@ -1,4 +1,4 @@
-@media (max-width: 1520px) {
+@media (max-width: 1410px) {
 .burger {
     margin: 0;/*  */
   width: 36px;
@@ -19,7 +19,7 @@
 }
 
 .burger span:nth-child(2){
-width: 27px;
+width: 24px;
 margin-left: 0;
 }
 
