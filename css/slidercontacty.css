@@ -66,7 +66,6 @@
   width: 108px;
   height: 108px;
   background-image: url(../img/ball/ball.svg);
-  
 }
 
 .contact-ball_hover {
@@ -138,4 +137,96 @@
 
 .draggable:hover {
   cursor: url(../img/Pointer.svg), grabbing;
+}
+
+@media (max-width: 960px) {
+  .contact-ball_container {
+    /* margin-top: 40px; */
+    width: 100%;
+    /* display: flex;
+    justify-content: center; */
+    gap: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* width: 400px; */
+    height: 86px;
+    background: linear-gradient(
+      110deg,
+      #313134 0%,
+      #222224 42.27%,
+      #292929 100%
+    );
+  }
+
+  .contact-ball_block {
+    height: 86px;
+  }
+
+  .contact-ball_s,
+  .contact-ball_m,
+  .contact-ball_l {
+    width: 55px;
+    height: 55px;
+  }
+
+  .ball-s,
+  .ball-m,
+  .ball-l {
+    width: 45px;
+    height: 45px;
+    background-image: url(../img/ball/ball-m.svg);
+  }
+
+  .contact-ball_hover {
+    width: 65px;
+    height: 65px;
+  }
+
+  .ball-hover {
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/ball/Combined-m.svg);
+  }
+
+  .vk {
+    width: 24px;
+    height: 15px;
+    background-image: url(../img/ball/vk-m.svg);
+  }
+
+  .vk-hover {
+    width: 34px;
+    height: 20px;
+  }
+
+  .mail {
+  width: 27px;
+  height: 24px;
+  background-image: url(../img/ball/gmail-m.svg);
+}
+.mail-hover {
+  width: 36px;
+  height: 33px;
+}
+
+.tg {
+  width: 20px;
+  height: 18px;
+  background-image: url(../img/ball/tg-m.svg);
+}
+
+.tg-hover {
+  width: 30px;
+  height: 28px;
+}
+
+.max {
+  width: 27px;
+  height: 18px;
+}
+
+.max-hover {
+  width: 37px;
+  height: 28px;
+  transition: width 0.2s ease, height 0.2s ease;
+}
 }
