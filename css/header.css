@@ -1,9 +1,12 @@
-.header-container {
-  max-height: 1055px;
+.header {
   background-image: url(../img/room.svg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow: hidden;
+}
+
+.header-container {
+  min-height: 1055px;
 }
 
 .line {
@@ -128,7 +131,7 @@
 
 .header-text {
   margin: 0;
-  min-width: 808px;
+  /* min-width: 808px; */
 }
 
 .h1-blur {
@@ -211,11 +214,12 @@
   display: flex;
 }
 .man-image {
-  position: relative;
+  position: absolute;
   width: 663px;
   height: 844px;
   top: -115px;
-  left: 46px;
+  /* left: 46px; */
+  right: -190px;
   z-index: 1;
   background-image: url(../img/man.svg);
   background-repeat: no-repeat;
@@ -226,19 +230,18 @@
   position: absolute;
   width: 700px;
   height: 700px;
-  left: 119px;
+  /* left: 119px; */
   top: 8px;
+  right: -300px;
+
   background-image: url(../img/circle.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-
-
-
-@media (max-width: 1524px) {
+@media (max-width: 1410px) {
   .header-container {
-    min-height: 640px;
+    min-height: 585px;
   }
 
   .lamp {
@@ -246,8 +249,8 @@
   }
   .menu {
     flex-direction: row-reverse;
-    margin-top: 49px;
-    margin-bottom: 140px;
+    margin-top: 56px;
+    margin-bottom: 123px;
   }
   .button {
     display: none;
@@ -259,7 +262,7 @@
   .main-menu_mobile {
     position: absolute;
     height: 338px;
-    margin-top: -49px;
+    margin-top: -56px;
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -323,7 +326,7 @@
   }
 
   .header-text {
-    min-width: 228px;
+    max-width: 228px;
   }
 
   .h1-blur {
@@ -334,42 +337,41 @@
   }
 
   .man-image {
-    /* position: relative; */
     width: 330px;
     height: 412px;
-    top: 0;
-    left: 118px;
+    top: 3px;
+    right: -112px;
   }
 
   .circle-image {
-    /* position: absolute; */
     width: 347px;
     height: 347px;
-    left: 140px;
-    top: 70px;
+
+        top: 74px;
+        right: -167px;
   }
 }
 
-@media (max-width: 620px) {
+/* @media (max-width: 620px) {
   .man-image {
     left: 67px;
   }
 }
-
-@media (max-width: 576px) {
+ */
+/* @media (max-width: 576px) {
   .man-image {
     left: -50px;
   }
-}
+} */
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .man-image {
     left: -76px;
   }
-}
-
+} */
+/* 
 @media (max-width: 380px) {
   .man-image {
     left: -125px;
   }
-}
+} */
