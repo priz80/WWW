@@ -1,11 +1,12 @@
 .about {
+
   background-image: url(../img/Grouplineup.svg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .about-text {
-  width: 672px;
+  width: 832px;
   margin: 0;
 }
 
@@ -18,8 +19,9 @@
 }
 
 .about-container {
+  min-height: 1066px;
   margin-top: 84px;
-  margin-bottom: 150px;
+/*   margin-bottom: 150px; */
 }
 
 .h3-about {
@@ -147,14 +149,10 @@
 }
 
 
-@media (max-width: 1905px) {
+@media (min-width: 2400px) {
   .about {
     background-image: none;
   }
 }
 
-@media (min-width: 2000px) {
-  .about {
-    background-image: none;
-  }
-}
+
