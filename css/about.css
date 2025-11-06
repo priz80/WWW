@@ -84,6 +84,7 @@
     #282828 88%
   );
   box-shadow: 0 0 80px 0 rgba(44, 44, 45, 0.35);
+  flex-shrink: 0;
 }
 
 .about-card_prise {
@@ -95,6 +96,7 @@
     #193895 88%
   );
   box-shadow: 0 0 150px 0 rgba(59, 95, 150, 0.35);
+  flex-shrink: 0;
 }
 
 .about-card_text {
