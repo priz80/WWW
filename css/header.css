@@ -239,9 +239,9 @@
   background-size: contain;
 }
 
-@media (max-width: 1410px) {
+@media (max-width: 1280px) {
   .header-container {
-    min-height: 585px;
+    min-height: 640px;
   }
 
   .lamp {
@@ -249,7 +249,7 @@
   }
   .menu {
     flex-direction: row-reverse;
-    margin-top: 56px;
+    padding-top: 56px;
     margin-bottom: 123px;
   }
   .button {
@@ -276,7 +276,8 @@
 
   .main-menu_mobile.active {
     transform: translateY(0%);
-    margin-top: -51px;
+    margin-top: -58px;
+    z-index: 2;
   }
 
   ul li {
@@ -336,10 +337,14 @@
     display: none;
   }
 
+  .question {
+    display: none;
+  }
+
   .man-image {
     width: 330px;
     height: 412px;
-    top: 3px;
+    top: 2px;
     right: -112px;
   }
 
