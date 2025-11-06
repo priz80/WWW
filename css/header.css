@@ -21,11 +21,7 @@
 }
 
 .lamp {
-  width: 127px;
-  height: 29px;
-  background-image: url(../img/lamp.svg);
-  background-repeat: no-repeat;
-  margin-bottom: 20px;
+  min-height: 49px;
   margin-left: 504px;
 }
 
@@ -247,14 +243,17 @@
   .lamp {
     display: none;
   }
+
   .menu {
     flex-direction: row-reverse;
     padding-top: 56px;
     margin-bottom: 123px;
   }
+
   .button {
     display: none;
   }
+
   .main-menu {
     display: none;
   }
@@ -276,7 +275,7 @@
 
   .main-menu_mobile.active {
     transform: translateY(0%);
-    margin-top: -58px;
+    margin-top: -1px;
     z-index: 2;
   }
 
@@ -352,31 +351,27 @@
     width: 347px;
     height: 347px;
 
-        top: 74px;
-        right: -167px;
+    top: 74px;
+    right: -167px;
+  }
+
+  .details {
+    width: 129px;
+    height: 38px;
+  }
+
+  .button-text {
+    margin-left: 18px;
+  }
+
+  .button-description {
+    font-size: 11px;
+  }
+
+  .details img {
+    margin: 0;
+    width: 7px;
+    height: 12px;
+    margin-left: 7px;
   }
 }
-
-/* @media (max-width: 620px) {
-  .man-image {
-    left: 67px;
-  }
-}
- */
-/* @media (max-width: 576px) {
-  .man-image {
-    left: -50px;
-  }
-} */
-
-/* @media (max-width: 480px) {
-  .man-image {
-    left: -76px;
-  }
-} */
-/* 
-@media (max-width: 380px) {
-  .man-image {
-    left: -125px;
-  }
-} */
