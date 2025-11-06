@@ -34,7 +34,7 @@ h3::after {
   content: "Мы - студия web-разработки, работаем уже более 3-х лет, готовы разработать для вас сайт в кротчайшие сроки.";
 }
 
-@media (max-width: 1410px) {
+@media (max-width: 1280px) {
   h3{
     margin-top: 2px;
     margin-bottom: 23px;
@@ -72,7 +72,7 @@ h7 {
   color: #fff;
 }
 
-@media (max-width: 1410px) {
+@media (max-width: 1280px) {
   h1 {
     font-size: 27px;
   }
