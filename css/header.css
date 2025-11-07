@@ -235,6 +235,10 @@
   background-size: contain;
 }
 
+.info {
+  display: none;
+}
+
 @media (max-width: 1280px) {
   .header-container {
     min-height: 640px;
