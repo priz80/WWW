@@ -1,13 +1,9 @@
 .slider-portfolio_container {
-  /* position: relative; */
-  /*  margin: 0; */
-  /*   display: flex;
-  align-items: center; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .slider-portfolio {
-  position: relative;
+  /* position: relative; */
   width: 1235px;
   overflow: hidden;
   margin: 0;
@@ -16,12 +12,12 @@
 .slides-portfolio {
   margin: 0;
   display: flex;
-  gap: 100px;
+  gap: 104px;
   transition: transform 0.5s ease;
 }
 
 .slide-portfolio {
-  min-width: 569px;
+  width: 569px;
   height: 365px;
 }
 
@@ -34,16 +30,32 @@
 
 .arrow-portfolio {
   position: absolute;
-  top: 36%;
-  margin-left: -35px;
+  top: 38%;
+  z-index: 1;
+  right: 0;
   gap: 496px;
 }
 
 @media (max-width: 1280px) {
-.arrow-portfolio {
+  .arrow-portfolio {
     position: relative;
     gap: 35px;
-    justify-content: center;
-    margin-top: 33px;
+  }
+
+  .slide-portfolio {
+    width: 258px;
+    height: 153px;
+  }
+
+  .slide-portfolio img {
+    width: 258px;
+    height: 153px;
+  }
+
+  .slider-portfolio {
+    width: 553px;
+}
+  .slides-portfolio {
+    gap: 37px;
 }
 }
