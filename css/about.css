@@ -153,9 +153,13 @@
 }
 
 @media (max-width: 1280px) {
-.about {
-  background-image: none;
-}
+  .about {
+    background-image: none;
+  }
+
+  .about-container {
+    margin-top: 52px;
+  }
 
   .about-block {
     display: flex;
@@ -190,7 +194,7 @@
     align-items: flex-end;
     justify-content: center;
   }
-  .button-about p{
+  .button-about p {
     font-size: 13px;
   }
 
@@ -202,7 +206,72 @@
     position: absolute;
     width: 131px;
     height: 41px;
-    /* top: -33px; */
-  /* left: 8px; */
+  }
+
+  .info {
+    border: 1.5px solid #208c76;
+    border-radius: 41px;
+    width: 324px;
+    height: 38px;
+    box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.1);
+    background: rgba(46, 236, 197, 0.04);
+    display: flex;
+    align-items: center;
+    margin-top: 19px;
+  }
+
+  .info p {
+    font-weight: 500;
+    font-size: 11px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .about-card {
+    width: 289px;
+    height: 289px;
+  }
+
+  .about-card_text {
+    margin-top: 38px;
+    margin-left: 23px;
+  }
+
+  .about-card_title {
+    font-size: 22px;
+    width: 228px;
+  }
+
+  .about-card_subtitle {
+    font-size: 12px;
+    width: 210px;
+  }
+
+  .about-image_prise {
+    width: 158px;
+    height: 139px;
+    margin-top: 19px;
+    margin-left: 125px;
+  }
+
+  .about-image_time {
+    width: 136px;
+    height: 130px;
+    margin-top: 2px;
+    margin-left: 128px;
+  }
+
+  .about-image_employ {
+    width: 136px;
+    height: 130px;
+    margin-top: 0;
+    margin-left: 152px;
+  }
+
+  .about-image_support {
+    width: 125px;
+    height: 126px;
+    margin-top: 4px;
+    margin-left: 142px;
   }
 }
