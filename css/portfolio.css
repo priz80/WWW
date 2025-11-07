@@ -9,6 +9,7 @@ position: relative;
 }
 
 .portfolio-block {
+  position: relative;
   display: flex;
 /*   justify-content: space-between; */
   gap: 140px;
@@ -48,6 +49,7 @@ position: relative;
 @media (max-width: 1280px) {
 .portfolio-block {
   flex-direction: column;
+  
 }
 
 .portfolio-text {
@@ -65,5 +67,9 @@ padding: 0 28px;
 
 .button-portfolio {
 display: none;
+}
+
+.portfolio-block {
+    gap: 42px;
 }
 }
