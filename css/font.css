@@ -1,7 +1,6 @@
 h1,
 h2,
-h4,
-h6 {
+h4 {
   background: linear-gradient(149deg, #b5feef 0%, #2eecc5 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -59,18 +58,7 @@ h5 {
   margin-bottom: 13px;
 }
 
-h6 {
-  font-weight: bold;
-  font-size: 50px;
-  line-height: 111%;
-}
 
-/* h7 {
-  font-weight: bold;
-  font-size: 96px;
-  letter-spacing: 0.02em;
-  color: #fff;
-} */
 
 @media (max-width: 1280px) {
   h1 {
@@ -88,9 +76,4 @@ h6 {
   h5 {
     font-size: 11px;
   }
-
-  h6 {
-    font-size: 37px;
-  }
-
 }
