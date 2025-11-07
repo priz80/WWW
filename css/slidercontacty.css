@@ -139,7 +139,7 @@
   cursor: url(../img/Pointer.svg), grabbing;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1280px) {
   .contact-ball_container {
     /* margin-top: 40px; */
     width: 100%;
