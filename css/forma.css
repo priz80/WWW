@@ -24,6 +24,17 @@
   margin-top: 40px;
 }
 
+.forma-text p{
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 111%;
+  background: linear-gradient(149deg, #b5feef 0%, #2eecc5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 .forma_ {
   margin: 0;
   margin-top: 25px;
@@ -131,8 +142,8 @@
   margin-top: 6px;
 }
 
-.notification-text {
-}
+/* .notification-text {
+} */
 
 .notification-text_title {
   font-size: 14px;
@@ -156,8 +167,6 @@
   margin: 0;
   top: 242px;
   left: 194px;
-  /* margin-top: 211px; */
- /*  margin-left: 332px; */
 }
 
 .notification-image_end {
@@ -175,8 +184,8 @@
   margin-top: 6px;
 }
 
-.notification-text {
-}
+/* .notification-text {
+} */
 
 .notification-text_title_end {
   font-size: 14px;
