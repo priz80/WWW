@@ -25,11 +25,12 @@ button {
   max-width: 1274px;
 }
 
-ul {
-  padding: 0;
-}
-ul li {
+
+li {
+  margin: 0;
   list-style: none;
 }
+
+
 
 
