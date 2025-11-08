@@ -220,13 +220,13 @@
 }
 
 .max {
-  width: 27px;
-  height: 18px;
+  width: 32px;
+  height: 23px;
 }
 
 .max-hover {
-  width: 37px;
-  height: 28px;
+  width: 41px;
+  height: 32px;
   transition: width 0.2s ease, height 0.2s ease;
 }
 }
