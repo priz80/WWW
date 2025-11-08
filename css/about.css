@@ -169,6 +169,10 @@
     margin-bottom: 35px;
   }
 
+  .about-text {
+    margin: 0 auto;
+  }
+
   .h3-about {
     text-align: center;
     font-size: 29px;
@@ -187,25 +191,27 @@
   }
 
   .button-about_block {
-    position: relative;
+    width: 139px;
     margin: 0 auto;
-    display: flex;
-    /* align-items: center; */
-    align-items: flex-end;
-    justify-content: center;
+    margin-top: 26px;
   }
+
   .button-about p {
+
     font-size: 13px;
+
   }
 
   .button-about {
+
     width: 131px;
     height: 41px;
   }
-  .button-about_shadow {
-    position: absolute;
-    width: 131px;
+
+  .button-about_shadow { 
+    width: 129px;
     height: 41px;
+    margin-top: -32px;
   }
 
   .info {
@@ -220,7 +226,7 @@
     margin-top: 19px;
   }
 
-  .info p {
+  .info span {
     font-weight: 500;
     font-size: 11px;
     text-align: center;
