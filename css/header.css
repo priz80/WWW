@@ -22,7 +22,7 @@
 
 .lamp {
   min-height: 49px;
-  margin-left: 506px;
+  margin-left: 504px;
 }
 
 .menu {
@@ -107,8 +107,9 @@
   align-items: center;
   margin: 0;
   padding: 0;
-  flex-basis: 40%;
+  /* flex-basis: 40%; */
   margin-left: 340px;
+  gap: 36px;
 }
 
 .main-menu_mobile {
