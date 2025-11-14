@@ -44,12 +44,22 @@
   gap: 22px;
 }
 
-.discrition {
+.description {
   color: rgba(255, 255, 255, 0.7);
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: 153.8%;
+}
+
+.description_block {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 0;
 }
 
 .field {
