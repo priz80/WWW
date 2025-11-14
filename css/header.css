@@ -143,6 +143,10 @@
   margin-top: -89px;
 }
 
+.h1-blur::after {
+ content: "Разработка сайтов";
+}
+
 .h2-blur {
   font-weight: bold;
   font-size: 45px;
@@ -154,6 +158,10 @@
   filter: blur(45px);
   margin-top: -93px;
   margin-bottom: 31px;
+}
+
+.h2-blur::after {
+  content: "для твоего бизнеса";
 }
 
 .header-text h2 {
@@ -282,6 +290,7 @@
     transform: translateY(0%);
     margin-top: -1px;
     z-index: 2;
+    padding: 0
   }
 
   ul li {
