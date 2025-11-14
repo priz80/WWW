@@ -31,6 +31,14 @@ li {
   list-style: none;
 }
 
+@font-face {
+  font-family: 'Ruberoid';
+  src: url('../font/Ruberoid-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Показываем fallback-шрифт, пока грузится основной */
+}
+
 
 
 
